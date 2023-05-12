@@ -1,0 +1,432 @@
+2023-05-12 09:35:54 [::1][-][uo88fp2ltutapktopmie75q47u][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php in E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\Fahad\\work\\Y...', Array, Object(app\controllers\TestController))
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('listview', Array, Object(app\controllers\TestController))
+#2 E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php(17): yii\base\Controller->render('listview')
+#3 [internal function]: app\controllers\TestController->actionIndex()
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#7 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#8 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-05-12 09:35:54 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57136'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683876954.2104
+    'REQUEST_TIME' => 1683876954
+]
+2023-05-12 09:42:59 [::1][-][uo88fp2ltutapktopmie75q47u][error][Error] Error: Class "app\controllers\Client" not found in E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php:19
+Stack trace:
+#0 [internal function]: app\controllers\TestController->actionIndex()
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#5 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-12 09:42:59 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57526'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683877379.962
+    'REQUEST_TIME' => 1683877379
+]
+2023-05-12 09:45:08 [::1][-][uo88fp2ltutapktopmie75q47u][error][Error] Error: Class "app\controllers\Client" not found in E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php:19
+Stack trace:
+#0 [internal function]: app\controllers\TestController->actionIndex()
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#5 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-12 09:45:08 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '57667'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=924c4e562163198cd5fc6a41e4e32ca9aa8f2a55e4c03e38de9c15e099e7c76ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22t8bMMkBTFvLawY-YeHh87HTIO3xkq_Nh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683877508.3132
+    'REQUEST_TIME' => 1683877508
+]
+2023-05-12 12:31:53 [::1][-][uo88fp2ltutapktopmie75q47u][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $message in E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php:1
+Stack trace:
+#0 E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php(1): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'E:\\Fahad\\work\\Y...', 1)
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(347): require('E:\\Fahad\\work\\Y...')
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('E:\\Fahad\\work\\Y...', Array)
+#3 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\Fahad\\work\\Y...', Array, Object(app\controllers\TestController))
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('listview', Array, Object(app\controllers\TestController))
+#5 E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php(27): yii\base\Controller->render('listview', Array)
+#6 [internal function]: app\controllers\TestController->actionIndex()
+#7 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-05-12 12:31:51 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '2dd77824406d98803c16743ae7e310f27ef43fce9480b1da0b42115f6e567813a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"8vDH0H9GvLC3yd4EQ4m8QU7vgxO198ng\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '63266'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=2dd77824406d98803c16743ae7e310f27ef43fce9480b1da0b42115f6e567813a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%228vDH0H9GvLC3yd4EQ4m8QU7vgxO198ng%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683887511.7391
+    'REQUEST_TIME' => 1683887511
+]
+2023-05-12 12:53:34 [::1][-][uo88fp2ltutapktopmie75q47u][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined variable $tableTempData in E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php:10
+Stack trace:
+#0 E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php(10): yii\base\ErrorHandler->handleError(2, 'Undefined varia...', 'E:\\Fahad\\work\\Y...', 10)
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(347): require('E:\\Fahad\\work\\Y...')
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('E:\\Fahad\\work\\Y...', Array)
+#3 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\Fahad\\work\\Y...', Array, Object(app\controllers\TestController))
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('listview', Array, Object(app\controllers\TestController))
+#5 E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php(27): yii\base\Controller->render('listview', Array)
+#6 [internal function]: app\controllers\TestController->actionIndex()
+#7 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#9 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#10 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#11 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#13 {main}
+2023-05-12 12:53:33 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H0PFuO3hoWriEHmhH8obfx9OEw18frB3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64118'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H0PFuO3hoWriEHmhH8obfx9OEw18frB3%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683888813.5383
+    'REQUEST_TIME' => 1683888813
+]
+2023-05-12 12:54:07 [::1][-][uo88fp2ltutapktopmie75q47u][error][Error] Error: Class "Html" not found in E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php:50
+Stack trace:
+#0 [internal function]: yii\base\View->{closure}(Array, 0, 0, Object(yii\widgets\ListView))
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\widgets\ListView.php(193): call_user_func(Object(Closure), Array, 0, 0, Object(yii\widgets\ListView))
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\widgets\ListView.php(124): yii\widgets\ListView->renderItem(Array, 0, 0)
+#3 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\widgets\BaseListView.php(160): yii\widgets\ListView->renderItems()
+#4 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\widgets\BaseListView.php(135): yii\widgets\BaseListView->renderSection('{items}')
+#5 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#6 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\widgets\BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}')
+#7 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Widget.php(146): yii\widgets\BaseListView->run()
+#8 E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php(56): yii\base\Widget::widget(Array)
+#9 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(347): require('E:\\Fahad\\work\\Y...')
+#10 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('E:\\Fahad\\work\\Y...', Array)
+#11 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\Fahad\\work\\Y...', Array, Object(app\controllers\TestController))
+#12 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('listview', Array, Object(app\controllers\TestController))
+#13 E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php(27): yii\base\Controller->render('listview', Array)
+#14 [internal function]: app\controllers\TestController->actionIndex()
+#15 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#18 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#19 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2023-05-12 12:54:06 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H0PFuO3hoWriEHmhH8obfx9OEw18frB3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64142'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H0PFuO3hoWriEHmhH8obfx9OEw18frB3%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683888846.0645
+    'REQUEST_TIME' => 1683888846
+]
+2023-05-12 12:56:50 [::1][-][uo88fp2ltutapktopmie75q47u][error][ParseError] ParseError: syntax error, unexpected identifier "Html", expecting "," or ";" in E:\Fahad\work\Yii2\COG\testCOG\views\test\listview.php:44
+Stack trace:
+#0 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('E:\\Fahad\\work\\Y...', Array)
+#1 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('E:\\Fahad\\work\\Y...', Array, Object(app\controllers\TestController))
+#2 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('listview', Array, Object(app\controllers\TestController))
+#3 E:\Fahad\work\Yii2\COG\testCOG\controllers\TestController.php(27): yii\base\Controller->render('listview', Array)
+#4 [internal function]: app\controllers\TestController->actionIndex()
+#5 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#7 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#8 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#9 E:\Fahad\work\Yii2\COG\testCOG\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 E:\Fahad\work\Yii2\COG\testCOG\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-05-12 12:56:49 [::1][-][uo88fp2ltutapktopmie75q47u][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'uo88fp2ltutapktopmie75q47u'
+    '_csrf' => '000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"H0PFuO3hoWriEHmhH8obfx9OEw18frB3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '64271'
+    'SERVER_SOFTWARE' => 'PHP 8.1.12 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\Fahad\\work\\Yii2\\COG\\testCOG\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"113\", \"Chromium\";v=\"113\", \"Not-A.Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => 'PHPSESSID=uo88fp2ltutapktopmie75q47u; _csrf=000de0329d7005d4a8176b2ba38e0c8014a4dc33ebc729709f71d5b40fc5e521a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H0PFuO3hoWriEHmhH8obfx9OEw18frB3%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683889009.6334
+    'REQUEST_TIME' => 1683889009
+]
